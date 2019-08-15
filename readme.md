@@ -1,12 +1,12 @@
-# react-snakegame
-![alt text](https://img.shields.io/github/license/Syntarex/react-snakegame)
-![alt text](https://img.shields.io/github/issues/Syntarex/react-snakegame)
+# react-game-snake
+![alt text](https://img.shields.io/github/license/Syntarex/react-game-snake)
+![alt text](https://img.shields.io/github/issues/Syntarex/react-game-snake)
 
 Play snake with this simple to use typed react component.
 
 ## Installation
 ```
-npm install @syntarex/react-snakegame --save
+npm install react-game-snake --save
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install @syntarex/react-snakegame --save
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Context, SnakeGame } from "react-snakegame";
+import { Context, SnakeGame } from "react-game-snake";
 
 ReactDOM.render(
     <SnakeGame

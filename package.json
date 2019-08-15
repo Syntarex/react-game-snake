@@ -1,5 +1,5 @@
 {
-  "name": "@syntarex/react-snakegame",
+  "name": "react-game-snake",
   "version": "1.0.0",
   "description": "Play snake with this simple to use typed react component.",
   "main": "./lib/index.js",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Syntarex/react-snakegame.git"
+    "url": "https://github.com/Syntarex/react-game-snake.git"
   },
   "author": "Dominic Fuchs <syntarex@posteo.de>",
   "license": "Apache-2.0",
