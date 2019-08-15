@@ -1,4 +1,7 @@
 # react-snakegame
+![alt text](https://img.shields.io/github/license/Syntarex/react-snakegame)
+![alt text](https://img.shields.io/github/issues/Syntarex/react-snakegame)
+
 Play snake with this simple to use typed react component.
 
 ## Installation
@@ -56,15 +59,15 @@ context.updateGame({ pause: true });
 
 ### Events
 Each event gets the context passed as the first parameter.
-| Name         	| Trigger                                                                           	|
-|--------------	|-----------------------------------------------------------------------------------	|
-| onLoose      	| The snake touches herself or one of the walls.                                    	|
-| onWin        	| No space left to respawn new food.                                                	|
-| onRestart    	| Player pressed R and restartAllowed = true.                               	|
-| onPause      	| Player pressed P, pauseAllowed = true and context.game.pause = false. 	|
-| onResume     	| Player pressed P, pauseAllowed = true and context.game.pause = true.  	|
-| onLoopStart  	| Before the game recalculated the context and drawn anything.                      	|
-| onLoopFinish 	| After the game recalculated the context and drawn everything.                     	|
+| Name         | Trigger                                                                 |
+|--------------|-------------------------------------------------------------------------|
+| onLoose      | The snake touches herself or one of the walls.                          |
+| onWin        | No space left to respawn new food.                                      |
+| onRestart    | Player pressed R and restartAllowed = true.                             |
+| onPause      | Player pressed P, pauseAllowed = true and context.game.pause = false. 	 |
+| onResume     | Player pressed P, pauseAllowed = true and context.game.pause = true.  	 |
+| onLoopStart  | Before the game recalculated the context and drawn anything.            |
+| onLoopFinish | After the game recalculated the context and drawn everything.           | 
 
 ### Options
 | Name                    	| Type                                                  	|  Description                                                       	|
