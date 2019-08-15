@@ -6,7 +6,7 @@ Play snake with this simple to use typed react component.
 
 ## Installation
 ```
-npm install react-snakegame --save
+npm install @syntarex/react-snakegame --save
 ```
 
 ## Usage

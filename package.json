@@ -1,5 +1,5 @@
 {
-  "name": "react-snakegame",
+  "name": "@syntarex/react-snakegame",
   "version": "1.0.0",
   "description": "Play snake with this simple to use typed react component.",
   "main": "./lib/index.js",
