@@ -59,6 +59,7 @@ context.updateGame({ pause: true });
 
 ### Events
 Each event gets the context passed as the first parameter.
+
 | Name         | Trigger                                                                 |
 |--------------|-------------------------------------------------------------------------|
 | onLoose      | The snake touches herself or one of the walls.                          |
