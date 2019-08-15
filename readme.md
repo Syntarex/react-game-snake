@@ -1,8 +1,8 @@
 # react-game-snake
-![alt text](https://img.shields.io/github/license/Syntarex/react-game-snake)
-![alt text](https://img.shields.io/github/issues/Syntarex/react-game-snake)
+![Apache License](https://img.shields.io/github/license/Syntarex/react-game-snake)
+![GitHub Issues](https://img.shields.io/github/issues/Syntarex/react-game-snake)
 
-Play snake with this simple to use typed react component.
+Play snake with this simple to use typed react component. [Demo](https://syntarex.github.io/react-game-snake/)
 
 ## Installation
 ```
