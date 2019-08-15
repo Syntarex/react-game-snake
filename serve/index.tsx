@@ -18,12 +18,7 @@ ReactDOM.render(
         pauseAllowed={false}
         restartAllowed={false}
         onLoose={(context: Context) => alert(`You loosed with ${context.game.points} points.`)}
-        onPause={(context: Context) => alert("paused")}
-        onRestart={(context: Context) => alert("restarted")}
-        onResume={(context: Context) => alert("onResume")}
         onWin={(context: Context) => alert(`You won with ${context.game.points} points.`)}
-        onLoopStart={(context: Context) => alert("loop start")}
-        onLoopFinish={(context: Context) => alert("loop finished")}
     />,
     document.getElementById("react"),
 );
