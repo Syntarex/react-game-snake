@@ -1,0 +1,7 @@
+/serve
+/node_modules
+/.cache
+/.vscode
+/lib
+/dist
+*.tsx.doc

@@ -1,0 +1,39 @@
+{
+  "name": "react-snakegame",
+  "version": "1.0.0",
+  "description": "A simple snakegame for react.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf ./dist && rimraf ./lib && rimraf ./.cache",
+    "lint": "tslint -p ./tsconfig.json",
+    "serve": "parcel serve ./serve/index.html --out-dir ./dist --cache-dir ./.cache --open",
+    "prebuild": "npm run clean && npm run lint",
+    "preserve": "npm run clean",
+    "prepublishOnly": "npm run clean && npm run lint && npm run build"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "snake",
+    "game",
+    "typescript"
+  ],
+  "files": [
+    "./lib"
+  ],
+  "author": "Dominic Fuchs <syntarex@posteo.de>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "parcel-bundler": "^1.12.3",
+    "react-dom": "^16.9.0",
+    "rimraf": "^2.6.3",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "react": "^16.9.0"
+  }
+}
